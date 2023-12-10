@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/669a737857.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="container">
+      <section class="cabeza">
+        <h1>ToDo List</h1>
+      </section>
+      <section class="cuerpo">
+        <!-- <h2>nueva tarea</h2> -->
+        <input type="text" placeholder="Ingresa Tarea" />
+        <i class="fa-regular fa-circle-check fa-2x"></i>
+      </section>
+      <section class="pie">
+        <section class="izq">
+          <p>ID:</p>
+          <p>Tarea:</p>
+        </section>
+        <section class="der">
+          <p>total: <span id="totalTareas"></span></p>
+          <p>realizadas: <span id="tareasRealizadas"></span></p>
+        </section>
+      </section>
+      <section class="valores">
+        <ul id="identificacion"></ul>
+        <ul id="nombreTarea"></ul>
+      </section>
+    </section>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
