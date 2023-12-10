@@ -50,6 +50,7 @@ const pintar = () => {
   nombreTarea.innerHTML = name;
   totalTareas.innerHTML = tareas.length;
   tareasRealizadas.innerHTML = tareasCompletas;
+  console.log(tareas);
 };
 
 const cambiarEstado = (id) => {
@@ -70,7 +71,6 @@ const cambiarEstado = (id) => {
     tareas.splice(indiceTarea, 1, nuevoEstado);
   }
   pintar();
-  console.log(tareas);
 };
 
 const eliminar = (id) => {
@@ -80,3 +80,4 @@ const eliminar = (id) => {
 };
 
 pintar();
+
